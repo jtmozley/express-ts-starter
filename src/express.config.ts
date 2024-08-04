@@ -1,8 +1,8 @@
+import { miscRouter } from '@/routes';
 import compression from 'compression';
 import express, { type Application } from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import { miscRouter } from './routes';
 
 const ExpressConfig = (): Application => {
     const app = express();
