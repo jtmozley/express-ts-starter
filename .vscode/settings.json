@@ -10,15 +10,4 @@
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[prisma]": {
-        "editor.defaultFormatter": "Prisma.prisma"
-    },
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": "schema.prisma",
-                "cmd": "npm run generate"
-            }
-        ]
-    }
 }
