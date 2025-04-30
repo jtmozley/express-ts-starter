@@ -1,6 +1,4 @@
-# Use the official Node.js image.
-# https://hub.docker.com/_/node
-FROM node:22.12.0-alpine
+FROM oven/bun:1.2.10
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
@@ -11,10 +9,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install production dependencies.
-RUN npm install
+RUN bun install
 
 # Copy local code to the container image.
 COPY . .
 
 # Run the web service on container startup.
-CMD npm start
+CMD bun run start
