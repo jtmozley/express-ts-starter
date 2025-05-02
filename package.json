@@ -26,7 +26,6 @@
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
-    "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   }
 }
