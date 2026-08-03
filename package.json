@@ -20,19 +20,18 @@
 		"compression": "^1.8.1",
 		"dotenv": "^17.4.2",
 		"express": "^5.2.1",
-		"helmet": "^8.1.0",
-		"morgan": "^1.10.1",
-		"tsx": "^4.22.2"
+		"helmet": "^8.3.0",
+		"morgan": "^1.11.0"
 	},
 	"devDependencies": {
 		"@types/compression": "^1.8.1",
 		"@types/express": "^5.0.6",
 		"@types/morgan": "^1.9.10",
-		"@types/node": "^25.9.0",
-		"eslint": "^10.4.0",
+		"@types/node": "^25.9.5",
+		"eslint": "^10.8.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-config-standard-with-typescript": "^43.0.1",
-		"npm-check-updates": "^22.2.0",
+		"npm-check-updates": "^22.2.9",
 		"typescript": "^6.0.3"
 	}
 }
